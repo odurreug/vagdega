@@ -1,17 +1,17 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'texas';
-    src: url(_fontes/TEXAT\ BOLD\ PERSONAL\ USE___.otf) } 
+    src: url(fontes/TEXAT\ BOLD\ PERSONAL\ USE___.otf); } 
     @font-face {
         font-family: 'diploma';
-        src: url(_fontes/diploma/diploma.ttf);
+        src: url(fontes/diploma/diploma.ttf);
     }
     @font-face {
         font-family: 'west';
-        src: url(_fontes/WEST____.TTF)}
+        src: url(fontes/WEST____.TTF);}
         :root {--fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma' }
  header.cabecalho {min-width: 350px;max-width: 950px;height: 500px;margin-bottom: 30px;}
-  body.cabecalho{ background-image:  url('../_imagens/cevejamaior2.jpg')center center no-repeat cover;} 
+  body.cabecalho{ background-image:  url('../imagens/cevejamaior2.jpg')center center no-repeat cover;} 
 picture#faixada { display: block; text-align: center; margin:auto ;} 
 
 
@@ -19,7 +19,7 @@ picture#faixada figcaption {display: block; margin-top: -130px; margin-right:aut
 
 
  body { min-width: 350px; max-width: 950px;}
- body{background-image: url(../_imagens/dnod6.jpg); background-repeat: no-repeat; background-size: cover;}
+ body{background-image: url(../imagens/dnod6.jpg); background-repeat: no-repeat; background-size: cover;}
 
 body h1 {width: 500px; text-align:center;  font-family: var(--fonte3); font-size: 60px; color: rgb(255, 0, 166 ); margin: top 20em; border: 0px; padding: 3px;}
 body h2 { text-align: center;  font-family: var(--fonte1); font-size: 30px; color: rgb(255, 0, 0); padding: 2px ; border: 10px; margin-top:5px; margin-right: auto; margin-bottom: 5px; margin-left: 10px;  }
@@ -34,8 +34,8 @@ picture#qr {display: block; margin-top: 400px;   margin-right:auto; margin-botto
 picture#qr.figcaption { display: block; margin-top: 0px;  font-family:var(--fonte1); font-size: 30px;color: rgb(65, 53, 230);}
 
 section#corpo {display: block; position: left; margin-top:100px; width: 650px; float:left; margin: 2px; }
-section#corpo{background-image:url(../_imagens/interirbar.jpg);background-repeat: no-repeat; background-size: contain;   }
+section#corpo{background-image:url(../imagens/interirbar.jpg);background-repeat: no-repeat; background-size: contain;   }
 
 aside#qrvideo {display: block; position: relative;  margin-top: -120px; margin-right:-200px;margin-bottom: 40px;margin-left: auto;padding: 20px; width: 400px; height: 600px; float: right; clear: both;  }
-aside#qrvideo{ background-image:url(../_imagens/cerva.jpg); background-repeat: repeat; }
+aside#qrvideo{ background-image:url(../imagens/cerva.jpg); background-repeat: repeat; }
 footer {display: block;min-width: 350px;max-width: 950px; margin-left: 600px; font-family: var(--fonte1) ; font-size:20px; color: rgb(16, 228, 48); position: 20px; clear: both; }
