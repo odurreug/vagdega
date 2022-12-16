@@ -9,7 +9,7 @@
     @font-face {
         font-family: 'west';
         src: url(fontes/WEST____.TTF);}
-        :root {--fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma' }
+        :root {--fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma'; }
  header.cabecalho {min-width: 350px;max-width: 950px;height: 500px;margin-bottom: 30px;}
   body.cabecalho{ background-image:  url('../imagens/cevejamaior2.jpg')center center no-repeat cover;} 
 picture#faixada { display: block; text-align: center; margin:auto ;} 
