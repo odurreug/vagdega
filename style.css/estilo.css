@@ -1,15 +1,16 @@
-@charset "UTF-8";
-@font-face {
+@charset "UTF-8"
+
+
     font-family: 'texas';
-    src: url(fontes/TEXAT\ BOLD\ PERSONAL\ USE___.otf) } 
+    src: url(fontes/TEXAT\ BOLD\ PERSONAL\ USE___.otf); } 
     @font-face {
         font-family: 'diploma';
         src: url(fontes/diploma/diploma.ttf);
     }
     @font-face {
         font-family: 'west';
-        src: url(fontes/WEST____.TTF)}
-        :root {--fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma' }
+        src: url(fontes/WEST____.TTF);}
+        :root {--fonte1: 'west'; --fonte2: 'texas'; --fonte3: 'diploma'; }
  header.cabecalho {min-width: 350px;max-width: 950px;height: 500px;margin-bottom: 30px;}
   body.cabecalho{ background-image:  url('../imagens/cevejamaior2.jpg')center center no-repeat cover;} 
 picture#faixada { display: block; text-align: center; margin:auto ;} 
@@ -39,4 +40,6 @@ section#corpo{background-image:url(../imagens/interirbar.jpg);background-repeat:
 aside#qrvideo {display: block; position: relative;  margin-top: -120px; margin-right:-200px;margin-bottom: 40px;margin-left: auto;padding: 20px; width: 400px; height: 600px; float: right; clear: both;  }
 aside#qrvideo{ background-image:url(../imagens/cerva.jpg); background-repeat: repeat; }
 footer {display: block;min-width: 350px;max-width: 950px; margin-left: 600px; font-family: var(--fonte1) ; font-size:20px; color: rgb(16, 228, 48); position: 20px; clear: both; }
+
+
 
